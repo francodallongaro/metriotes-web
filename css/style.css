@@ -1,8 +1,24 @@
 * {
   margin: 0;
-  padding: 0;
+  padding: 0 2%;
   box-sizing: border-box;
   background-color: #E0E0E0;
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section h1, section h2, section p, section a {
+  text-align: center;
+  padding-bottom: 7%;
+}
+
+h1 {
+  font-size: 2.5rem;
 }
 
 .card {

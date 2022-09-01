@@ -2,7 +2,24 @@
 
 * {
     margin: 0;
-    padding: 0;
+    padding: 0 2%;
     box-sizing: border-box;
     background-color: $primary-color;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1, h2, p, a {
+        text-align: center;
+        padding-bottom: 7%;
+    }
+}
+
+h1 {
+    font-size: 2.5rem;
 }
