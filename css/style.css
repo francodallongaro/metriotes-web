@@ -1,9 +1,13 @@
 * {
   margin: 0;
-  padding: 0 2%;
+  padding: 0;
   box-sizing: border-box;
   background-color: #eaeaea;
   font-family: "Poppins", sans-serif;
+}
+
+body {
+  padding: 0 2%;
 }
 
 section {
@@ -32,9 +36,8 @@ p {
 .card {
   padding: 10px;
   margin: 0 20px;
-  width: 200px;
-  height: 400px;
-  display: flex;
+  width: 250px;
+  height: 520px;
   justify-content: center;
   align-items: center;
   background-color: #eaeaea;
