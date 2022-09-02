@@ -41,18 +41,6 @@ section h1, section h2, section p, section a {
   padding: 40px;
 }
 
-.card {
-  padding: 10px;
-  margin: 0 20px;
-  width: 250px;
-  height: 520px;
-  justify-content: center;
-  align-items: center;
-  background-color: #eaeaea;
-  box-shadow: 3px 3px 6px rgba(184, 184, 184, 0.697), -3px -3px 6px rgb(255, 255, 255);
-  border-radius: 30px;
-}
-
 .mockups-layout {
   display: flex;
   flex-direction: row;
@@ -109,6 +97,37 @@ nav {
   box-shadow: 3px 3px 6px #eaeaea;
 }
 
+.card {
+  padding: 10px;
+  margin: 0 20px;
+  width: 250px;
+  height: 520px;
+  justify-content: center;
+  align-items: center;
+  background-color: #eaeaea;
+  box-shadow: 3px 3px 6px rgba(184, 184, 184, 0.697), -3px -3px 6px rgb(255, 255, 255);
+  border-radius: 30px;
+}
+
+.inset-card {
+  padding: 12px;
+  margin: 0 20px;
+  box-shadow: inset 3px 3px 6px rgba(184, 184, 184, 0.697), inset -3px -3px 6px rgb(255, 255, 255);
+  border-radius: 30px;
+}
+
+.circle-card {
+  padding: 20px;
+  margin: 20px;
+  width: 90px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 3px 3px 6px rgba(184, 184, 184, 0.697), -3px -3px 6px rgb(255, 255, 255);
+  border-radius: 100%;
+}
+
 h1 {
   font-size: 3rem;
 }
@@ -118,5 +137,5 @@ h2 {
 }
 
 p {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }/*# sourceMappingURL=style.css.map */
