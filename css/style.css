@@ -6,6 +6,20 @@
   font-family: "Poppins", sans-serif;
 }
 
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 section {
   padding: 0 2%;
   height: 100vh;
@@ -18,16 +32,13 @@ section h1, section h2, section p, section a {
   text-align: center;
 }
 
-h1 {
-  font-size: 3rem;
-}
-
-h2 {
-  font-size: 2rem;
-}
-
-p {
-  font-size: 1.5rem;
+.inset {
+  justify-content: center;
+  box-shadow: inset 3px 3px 6px rgba(184, 184, 184, 0.697), inset -3px -3px 6px rgb(255, 255, 255);
+  border-radius: 40px;
+  width: 95%;
+  height: auto;
+  padding: 40px;
 }
 
 .card {
@@ -95,5 +106,17 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 3px 3px 6px rgba(184, 184, 184, 0.697), -3px -3px 6px rgb(255, 255, 255);
+  box-shadow: 3px 3px 6px #eaeaea;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.5rem;
 }/*# sourceMappingURL=style.css.map */

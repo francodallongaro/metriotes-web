@@ -8,6 +8,20 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 section {
     padding: 0 2%;
     height: 100vh;
@@ -18,18 +32,15 @@ section {
 
     h1, h2, p, a {
         text-align: center;
-        //padding-bottom: 10px;
     }
 }
 
-h1 {
-    font-size: 3rem;
+.inset {
+    justify-content: center;
+    box-shadow: inset 3px 3px 6px $dark-shadow, inset -3px -3px 6px $light-shadow;
+    border-radius: 40px;
+    width: 95%;
+    height: auto;
+    padding: 40px;
 }
 
-h2 {
-    font-size: 2rem;
-}
-
-p {
-    font-size: 1.5rem;
-}
