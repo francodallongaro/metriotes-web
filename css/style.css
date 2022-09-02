@@ -94,14 +94,13 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 3px 3px 6px #eaeaea;
 }
 
 .card {
   padding: 10px;
   margin: 0 20px;
-  width: 250px;
-  height: 520px;
+  width: 220px;
+  height: 480px;
   justify-content: center;
   align-items: center;
   background-color: #eaeaea;
