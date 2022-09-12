@@ -15,6 +15,17 @@
     align-items: center;
 }
 
+.container {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+    width: 100vw;
+}
+
+section {
+    scroll-snap-align: start;
+}
+
 // DESKTOP
 @media only screen and (min-width: $break-1) {
 
@@ -48,7 +59,7 @@
             text-align: center;
         }
         h1, h2 {
-            margin: 30px 0;
+            margin: 10px 0;
         }
     }
     
